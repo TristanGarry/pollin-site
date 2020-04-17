@@ -12,24 +12,6 @@ body {
   overflow: hidden;
   margin: 3em auto;
 }
-.moon, {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  overflow: hidden;
-  z-index: 1;
-}
-.moon--floater {
-  position: absolute;
-  z-index: 0;
-  -webkit-transform-origin: center center;
-  -moz-transform-origin: center center;
-  transform-origin: center center;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
 
 .title-info {
   text-align: center;
@@ -40,8 +22,8 @@ body {
 .info--hed {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 3.2em;
-  color: #343434;
-  background-color: rgb(87, 115, 238)
+  color: rgb(53, 73, 94);
+  background-color: rgb(87, 115, 238);
   
 }
 .info--dek {
@@ -61,6 +43,6 @@ a {
 }
 
 a:hover {
-  background-color: rgb(87, 115, 238)
+  background-color: rgb(87, 115, 238);
 }
 
