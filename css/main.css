@@ -7,8 +7,8 @@ body {
   line-height: 1.6;
 }
 .logo--graphic {
-  width: 15em;
-  height: 15em;
+  width: 20em;
+  height: 40em;
   position: relative;
   overflow: visible;
   margin: 3em auto;
@@ -23,13 +23,14 @@ body {
 .info--hed {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 3.2em;
+  font-weight: 800;
   color: rgb(53, 73, 94);
-  background-color: rgb(87, 115, 238);
   
 }
 .info--dek {
   font-size: 1.4em;
   color: #676767;
+  font-weight: 500;
 }
 
 .info--coming {
